@@ -47,6 +47,9 @@ namespace ShootThemUp._Project.Scripts
 
             // Weapons
             
+            // Set instance transform to the first point of the spline
+            instance.transform.position = _spline.EvaluatePosition(0f);
+            
             return instance;
         }
     }

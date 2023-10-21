@@ -1,4 +1,5 @@
-﻿using UnityEngine;
+﻿using ShootThemUp._Project.Scripts.Utilities.Extensions;
+using UnityEngine;
 using UnityEngine.Splines;
 
 namespace ShootThemUp._Project.Scripts

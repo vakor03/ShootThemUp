@@ -11,7 +11,8 @@ namespace ShootThemUp._Project.Scripts
 
         private Transform _parent;
         private Transform _transform; // transform cache
-        
+        public event Action Callback;
+
         public void SetSpeed(float speed)
         {
             this.speed = speed;
@@ -43,6 +44,8 @@ namespace ShootThemUp._Project.Scripts
         {
             _transform.SetParent(null);
             _transform.position += _transform.forward * (speed * Time.deltaTime);
+            
+            Callback?.Invoke();
         }
 
         private void OnCollisionEnter(Collision other)

@@ -57,6 +57,12 @@ namespace ShootThemUp
                 
                 DestroyParticleSystem(hitVfx);
             }
+
+            Plane plane = other.gameObject.GetComponent<Plane>();
+            if (plane != null)
+            {
+                plane.TakeDamage(10);
+            }
             
             Destroy(gameObject);
         }

@@ -23,9 +23,10 @@ namespace ShootThemUp
             
             var projectileComponent = projectile.GetComponent<Projectile>();
             projectileComponent.SetSpeed(projectileSpeed);
+            var firePointZ = firePoint.position.z;
             projectileComponent.Callback += () =>
             {
-                var direction = (_target.position - projectile.transform.position).With(z:firePoint.position.z).normalized;
+                var direction = (_target.position - projectile.transform.position).With(z:firePointZ).normalized;
                 
                 var rotation = Quaternion.LookRotation(direction, Vector3.forward);
                 projectile.transform.rotation = Quaternion.Slerp(projectile.transform.rotation, rotation, trackingSpeed * Time.deltaTime);

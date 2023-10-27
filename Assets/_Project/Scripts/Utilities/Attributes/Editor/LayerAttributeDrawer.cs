@@ -1,7 +1,7 @@
 ﻿using UnityEditor;
 using UnityEngine;
 
-namespace ShootThemUp._Project.Scripts.Utilities.Attributes.Editor
+namespace ShootThemUp.Utilities.Attributes.Editor
 {
     [CustomPropertyDrawer(typeof(LayerAttribute))]
     public class LayerAttributeDrawer : PropertyDrawer

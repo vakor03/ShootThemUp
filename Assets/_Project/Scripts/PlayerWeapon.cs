@@ -1,6 +1,6 @@
 ﻿using UnityEngine;
 
-namespace ShootThemUp._Project.Scripts
+namespace ShootThemUp
 {
     public class PlayerWeapon : Weapon
     {

@@ -1,7 +1,6 @@
-﻿using System;
-using UnityEngine;
+﻿using UnityEngine;
 
-namespace ShootThemUp._Project.Scripts
+namespace ShootThemUp
 {
     public class CameraController : MonoBehaviour
     {

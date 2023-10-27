@@ -1,8 +1,7 @@
-﻿using System;
-using ShootThemUp._Project.Scripts.Utilities.Attributes;
+﻿using ShootThemUp.Utilities.Attributes;
 using UnityEngine;
 
-namespace ShootThemUp._Project.Scripts
+namespace ShootThemUp
 {
     public abstract class Weapon : MonoBehaviour
     {

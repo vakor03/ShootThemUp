@@ -1,6 +1,6 @@
 ﻿using UnityEngine;
 
-namespace ShootThemUp._Project.Scripts
+namespace ShootThemUp
 {
     [CreateAssetMenu(menuName = "ShootThemUp/WeaponStrategy/MultipleShots", fileName = "MultipleShotsStrategy",
         order = 0)]

@@ -1,9 +1,8 @@
-﻿using System;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Splines;
 
-namespace ShootThemUp._Project.Scripts
+namespace ShootThemUp
 {
     public class EnemySpawner : MonoBehaviour
     {

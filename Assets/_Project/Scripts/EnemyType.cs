@@ -1,6 +1,6 @@
 ﻿using UnityEngine;
 
-namespace ShootThemUp._Project.Scripts
+namespace ShootThemUp
 {
     [CreateAssetMenu(menuName = "ShootThemUp/EnemyType", fileName = "EnemyType", order = 0)]
     public class EnemyType : ScriptableObject

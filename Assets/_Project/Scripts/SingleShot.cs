@@ -1,6 +1,6 @@
 ﻿using UnityEngine;
 
-namespace ShootThemUp._Project.Scripts
+namespace ShootThemUp
 {
     [CreateAssetMenu(menuName = "ShootThemUp/WeaponStrategy/SingleShot", fileName = "SingleShot", order = 0)]
     public class SingleShot : WeaponStrategy

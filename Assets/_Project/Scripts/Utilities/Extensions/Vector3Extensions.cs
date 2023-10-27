@@ -1,6 +1,6 @@
 ﻿using UnityEngine;
 
-namespace ShootThemUp._Project.Scripts.Utilities.Extensions
+namespace ShootThemUp.Utilities.Extensions
 {
     public static class Vector3Extensions
     {

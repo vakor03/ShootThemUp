@@ -1,7 +1,7 @@
-﻿using ShootThemUp._Project.Scripts.Utilities.Extensions;
+﻿using ShootThemUp.Utilities.Extensions;
 using UnityEngine;
 
-namespace ShootThemUp._Project.Scripts
+namespace ShootThemUp
 {
     [CreateAssetMenu(menuName = "ShootThemUp/WeaponStrategy/TrackingShot", fileName = "TrackingShot", order = 0)]
     public class TrackingShot : WeaponStrategy

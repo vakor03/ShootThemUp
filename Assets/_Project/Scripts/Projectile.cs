@@ -1,7 +1,7 @@
 ﻿using System;
 using UnityEngine;
 
-namespace ShootThemUp._Project.Scripts
+namespace ShootThemUp
 {
     public class Projectile : MonoBehaviour
     {
@@ -63,13 +63,13 @@ namespace ShootThemUp._Project.Scripts
 
         private void DestroyParticleSystem(GameObject vfx)
         {
-            var ps = vfx.GetComponent<ParticleSystem>();
+            ParticleSystem ps = vfx.GetComponent<ParticleSystem>();
             if (ps == null)
             {
                 ps = vfx.GetComponentInChildren<ParticleSystem>();
             }
             
-            Destroy(ps, ps.main.duration);
+            Destroy(vfx, ps.main.duration);
         }
     }
 }

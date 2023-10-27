@@ -4,8 +4,8 @@
     {
         protected override void Die()
         {
+            GameManager.Instance.AddScore(10);
             Destroy(gameObject);
-            // GameManager.Instance.AddScore(1);
         }
     }
 }

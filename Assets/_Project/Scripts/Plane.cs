@@ -26,6 +26,11 @@ namespace ShootThemUp
                 Die();
             }
         }
+        
+        public float GetHealthNormalized()
+        {
+            return (float) _health / maxHealth;
+        }
 
         protected abstract void Die();
     }

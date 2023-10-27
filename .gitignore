@@ -10,6 +10,9 @@
 /[Ll]ogs/
 /[Mm]emoryCaptures/
 
+# Eflatun.SceneReference auto-generated map files
+[Aa]ssets/Resources/Eflatun/SceneReference/*.generated.json
+[Aa]ssets/Resources/Eflatun/SceneReference/*.generated.json.meta
 # Never ignore Asset meta data
 !/[Aa]ssets/**/*.meta
 
